@@ -6,7 +6,7 @@ public abstract class Formatar {
         String[] nomesBrutos;
 
         nomeFormatado = "";
-        nomesBrutos = nome.split("ss ");
+        nomesBrutos = nome.split(" ");
 
         for (String temp : nomesBrutos) {
             nomeFormatado += temp.substring(0, 1).toUpperCase() + temp.substring(1).toLowerCase() + " ";
